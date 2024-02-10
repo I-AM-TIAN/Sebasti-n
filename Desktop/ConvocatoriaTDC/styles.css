@@ -1,0 +1,67 @@
+/* Establece márgenes y relleno a 0 y ajusta la altura del cuerpo y HTML al 100% */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #05668d;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url('Sources/Convocatoria.svg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+.main_section{
+    height: 100vh;
+}
+
+.main_section div{
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+    width: 50%;
+    float: left;
+}
+
+.section1 {
+    background-color: #034871; 
+}
+
+.section2{
+   background-color: #01ABC6;
+}
+
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #090909;
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+footer{
+    margin: 0;
+    background-color: #31745B;
+    height: 25vh;
+}
+
+footer h1, h2, h3, h4{
+    margin: 0;
+    text-align: center;
+}
